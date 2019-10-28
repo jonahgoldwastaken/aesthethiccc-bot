@@ -1,0 +1,29 @@
+{
+  "name": "aesthethiccc-bot",
+  "version": "1.0.0",
+  "description": "A E S T H E T I C  T E L E G R A M  B O T",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theonejonahgold/aesthethiccc-bot.git"
+  },
+  "author": "Jonah Meijers <jonahmeijers97@gmail.com> (https://www.jonahmeijers.nl/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theonejonahgold/aesthethiccc-bot/issues"
+  },
+  "homepage": "https://github.com/theonejonahgold/aesthethiccc-bot#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "mockbot-cli": "^1.0.0",
+    "node-telegram-bot-api": "^0.30.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
