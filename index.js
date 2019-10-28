@@ -17,7 +17,7 @@ aestheticBot.on("inline_query", e => {
     {
       type: "article",
       id: String(Math.floor(Math.random() * 10000000000)),
-      title: aesthethicccedText("Click here to send AESTHETICS"),
+      title: aesthetic("Click here to send AESTHETICS"),
       input_message_content: {
         message_text: aesthethicccedText,
         parse_mode: "Markdown"
