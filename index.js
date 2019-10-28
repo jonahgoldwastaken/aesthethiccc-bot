@@ -12,7 +12,7 @@ const aestheticBot = new TelegramBot(botToken, {
 aestheticBot.on("inline_query", e => {
   const aesthethicccedText = e.query.length
     ? aesthetic(e.query)
-    : aesthetic("Type omething!");
+    : aesthetic("Type something!");
   const answer = [
     {
       type: "article",
