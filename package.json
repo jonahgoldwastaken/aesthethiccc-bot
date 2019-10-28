@@ -20,7 +20,6 @@
   "homepage": "https://github.com/theonejonahgold/aesthethiccc-bot#readme",
   "dependencies": {
     "dotenv": "^6.0.0",
-    "mockbot-cli": "^1.0.0",
     "node-telegram-bot-api": "^0.30.0"
   },
   "devDependencies": {
